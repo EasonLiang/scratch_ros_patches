@@ -1,0 +1,73 @@
+# "Default" build tree
+/build/
+
+# PyCharm help directory
+venv/
+
+# PyCharm .run directory
+.run/
+
+# Compiled Python code
+*.pyc
+
+# Testing framework (if run_tests.py is run from the source tree)
+results/
+results_2/
+
+# Static analysis and code coverage
+/tests/pclint/
+/cov-int
+gcov_test/
+
+# SlickEdit workspace history and tag files
+*.vtg
+*.vpwh*
+
+# for projects that use Waf for building: http://code.google.com/p/waf/
+.waf-*
+.lock*
+waf*
+
+# KDevelop
+*.kdev4
+.kdev4/
+
+# XCode
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.perspectivev3
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.tm_build_errors
+*.tmproj
+*.xcworkspace
+xcuserdata
+
+# Sublime
+*.sublime-workspace
+
+# Eclipse Configuration
+.cproject
+.project
+.settings
+
+# backup files
+#   texteditor (kate, etc.)
+*~
+#   git mergetool.keepBackup or KDiff3
+*.orig
+
+# uncrustified files
+*.uncrustify
+
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Vim
+*.swp
+
+# Clangd
+/.cache/clangd/
+
+# Compilation database
+compile_commands.json
