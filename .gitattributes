@@ -1,0 +1,13 @@
+*                            text=auto
+
+tests/**                     -text
+
+src/**                       eol=lf
+scripts/**                   eol=lf
+
+tests/**/*.cfg               eol=lf
+
+tests/*.test                 eol=lf
+
+*.sh                         eol=lf
+*.bat                        eol=crlf
