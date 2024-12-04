@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.5)
 project(cmake_install_test LANGUAGES C)
 
 # Find LZ4 installation in Config mode
+set(lz4_DIR /home/eason/ros2_humble/build/LZ4)
 find_package(lz4 CONFIG REQUIRED)
 
 # Verify that the universal target always exists
